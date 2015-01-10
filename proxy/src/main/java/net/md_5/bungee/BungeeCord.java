@@ -429,7 +429,7 @@ public class BungeeCord extends ProxyServer
     @Override
     public String getVersion()
     {
-        return ( BungeeCord.class.getPackage().getImplementationVersion() == null ) ? "unknown" : BungeeCord.class.getPackage().getImplementationVersion();
+        return "TastyMC 1.8-SNAPSHOT"
     }
 
     @Override
